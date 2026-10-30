@@ -1,0 +1,37 @@
+{
+  "name": "s-file-organizer",
+  "version": "1.0.1",
+  "description": "A CLI tool to automatically organize files by type",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SohamVibhandik71/s-file-organizer.git"
+  },
+  "type": "module",
+  "bin": {
+    "file-organizer": "./dist/app.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "file-organizer",
+    "cli",
+    "typescript",
+    "file-management"
+  ],
+  "author": "Soham Vibhandik",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.9.3"
+  }
+}
